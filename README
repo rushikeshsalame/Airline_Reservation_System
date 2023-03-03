@@ -1,0 +1,50 @@
+AirLine Reservation System
+
+1. Using Java Language build Airline reservation system
+2. Tools/ IDE - Netbeans
+3. Front-end used swings
+4. back-end used mysql
+
+Airline reservation system  working
+// this system has login window user can login using USERID and PASSWORD
+// if user forget password  user can click forget password option it will show create new/ generate new password by using the userid.
+
+// afte the open login window it will show 4 section
+1. Customer
+2. Flight
+3. Generate Ticket
+4. Admin
+
+1. Customer have sub-option 
+	A. Add customer
+	B. Search Customer
+	
+     A. Add customer - in this option user can add personal details about the passanger 
+	e.q. first name, last name, passport id, nic id , address, phone number, date of birth etc.
+     B. search  customer - in this option get information about the passange after the searching 
+	customerid  e.q. cs001 it get all information about the passanger
+
+2. Flight  
+	A. Add filght : passanger details and arrival , departure, travelling date, dob and fare
+	B. search  flight : it give total fare , number seats , arrivl and departure, all details etc.
+
+3. Generate Ticket 
+	: it will give details of passange such as first name, last name , arrival and departure and       also  travelling date
+
+4. Admin
+	:  it can be add the admin and also create the userid and password
+	
+
+front end used swing and awt  
+			: it has classes such as jPanel, jbutton, jtextfiled , Areafiled
+
+
+back end used MYSql :
+		     it will store record or information about the 
+			1. Admin details
+			2. Passanger details 
+			3. flight details
+			4. Ticket.
+
+			
+	
